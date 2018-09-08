@@ -7,7 +7,7 @@ import { IonicStorageModule } from '@ionic/storage';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-
+//smf
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
