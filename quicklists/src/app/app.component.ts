@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Plugins } from '@capacitor/core';
+import { ChecklistDataService } from './services/checklist-data.service';
 
 const { SplashScreen, StatusBar } = Plugins;
 
@@ -8,7 +9,8 @@ const { SplashScreen, StatusBar } = Plugins;
   templateUrl: 'app.component.html'
 })
 export class AppComponent {
-  constructor() {
+  constructor(private dataService: ChecklistDataService) {
+    this.dataService.load();
     SplashScreen.hide().catch((err) => {
       console.warn(err);
     });

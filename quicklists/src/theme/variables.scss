@@ -1,6 +1,9 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+ion-content {
+  --ion-background-color: #a2a4ab;
+}
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -28,12 +31,12 @@
   --ion-color-tertiary-tint: #f5b255;
 
   /** success **/
-  --ion-color-success: #10dc60;
+  --ion-color-success: #32db64;
   --ion-color-success-rgb: 16,220,96;
   --ion-color-success-contrast: #fff;
   --ion-color-success-contrast-rgb: 255,255,255;
-  --ion-color-success-shade: #0ec254;
-  --ion-color-success-tint: #28e070;
+  --ion-color-success-shade: #2cc158;
+  --ion-color-success-tint: #47df74;
 
   /** warning **/
   --ion-color-warning: #ffce00;
@@ -66,7 +69,7 @@
   --ion-color-medium-contrast-rgb: 0,0,0;
   --ion-color-medium-shade: #86888f;
   --ion-color-medium-tint: #a2a4ab;
-  
+
   /** dark **/
   --ion-color-dark: #222;
   --ion-color-dark-rgb: 34,34,34;
